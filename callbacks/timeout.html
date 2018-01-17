@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Timeout</title>
+</head>
+<body>
+  <div>
+    <h1></h1>
+    <button id="cancel-button">cancel</button>
+  </div>
+  <script type="text/javascript">
+    const cancelButton = document.getElementById('cancel-button')
+    const documentTimeout = setTimeout(()=> document.write('3 seconds'), 3000)
+    const alertTimeout = setTimeout(()=> alert('5 seconds'), 5000)
+    cancelButton.addEventListener('click', () => {
+      clearTimeout(alertTimeout)
+      clearTimeout(documentTimeout)
+    })
+  </script>
+</body>
+</html>

@@ -29,8 +29,12 @@ const freakom = (str) => {
   return translation
 }
 
-console.log(freakom('Programar'))
-console.log(freakom('Zorro'))
-console.log(freakom('Zarpar'))
-console.log(freakom('abecedario'))
-console.log(freakom('sometemos'))
+if (require.main === module) {
+  console.log(freakom('Programar'))
+  console.log(freakom('Zorro'))
+  console.log(freakom('Zarpar'))
+  console.log(freakom('abecedario'))
+  console.log(freakom('sometemos'))
+}
+
+module.exports = { freakom }

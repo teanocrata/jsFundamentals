@@ -1,0 +1,34 @@
+{
+  "name": "jsfundamentals",
+  "version": "0.1.0",
+  "description": "JS fundamentals examples",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel . -d lib --ignore node_modules,lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teanocrata/jsFundamentals.git"
+  },
+  "keywords": [
+    "js",
+    "fundamentals"
+  ],
+  "author": "Isabel Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teanocrata/jsFundamentals/issues"
+  },
+  "homepage": "https://github.com/teanocrata/jsFundamentals#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-airbnb-standard": "^1.6.6"
+  },
+  "dependencies": {
+    "yargs": "^10.1.1"
+  }
+}

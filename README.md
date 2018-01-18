@@ -45,3 +45,10 @@ Execution example: In order to execute shapeFunctions.js you need to run:
 ```
 node ./fundamentals/shapeFunctions.js
 ```
+
+## Transpiled code
+
+You can generate transpiled code by using babel. The codes will be generated under the "lib" folder:
+```
+npm run build
+```

@@ -1,5 +1,5 @@
 {
-  "name": "jsfundamentals",
+  "name": "@teanocrata/jsfundamentals",
   "version": "0.1.0",
   "description": "JS fundamentals examples",
   "main": "./lib/index.js",
